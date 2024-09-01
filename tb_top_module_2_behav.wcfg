@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_module_2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top_module_2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,594.251666 us"></ZoomStartTime>
+      <ZoomEndTime time="1,596.791667 us"></ZoomEndTime>
+      <Cursor1Time time="1,596.085000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="195"></NameColumnWidth>
+      <ValueColumnWidth column_width="506"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="37" />
+   <wvobject fp_name="/tb_top_module_2/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/multiply_control/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/multiply_control/i" type="array">
+      <obj_property name="ElementShortName">i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/multiply_control/j" type="array">
+      <obj_property name="ElementShortName">j[7:0]</obj_property>
+      <obj_property name="ObjectShortName">j[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/multiply_control/k" type="array">
+      <obj_property name="ElementShortName">k[7:0]</obj_property>
+      <obj_property name="ObjectShortName">k[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/multiply_control/l" type="array">
+      <obj_property name="ElementShortName">l[7:0]</obj_property>
+      <obj_property name="ObjectShortName">l[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group762" type="group">
+      <obj_property name="label">parameters</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_top_module_2/M" type="array">
+         <obj_property name="ElementShortName">M[7:0]</obj_property>
+         <obj_property name="ObjectShortName">M[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/N" type="array">
+         <obj_property name="ElementShortName">N[7:0]</obj_property>
+         <obj_property name="ObjectShortName">N[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/K" type="array">
+         <obj_property name="ElementShortName">K[7:0]</obj_property>
+         <obj_property name="ObjectShortName">K[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/A" type="array">
+         <obj_property name="ElementShortName">A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">A[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/B" type="array">
+         <obj_property name="ElementShortName">B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">B[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/C" type="array">
+         <obj_property name="ElementShortName">C[7:0]</obj_property>
+         <obj_property name="ObjectShortName">C[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/multiply_control/I" type="array">
+         <obj_property name="ElementShortName">I[7:0]</obj_property>
+         <obj_property name="ObjectShortName">I[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/multiply_control/J" type="array">
+         <obj_property name="ElementShortName">J[7:0]</obj_property>
+         <obj_property name="ObjectShortName">J[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/multiply_control/K" type="array">
+         <obj_property name="ElementShortName">K[7:0]</obj_property>
+         <obj_property name="ObjectShortName">K[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/multiply_control/L" type="array">
+         <obj_property name="ElementShortName">L[7:0]</obj_property>
+         <obj_property name="ObjectShortName">L[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1349" type="group">
+      <obj_property name="label">count</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module_2/multiply_control/count" type="array">
+         <obj_property name="ElementShortName">count[7:0]</obj_property>
+         <obj_property name="ObjectShortName">count[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/multiply_control/count_mul" type="array">
+         <obj_property name="ElementShortName">count_mul[7:0]</obj_property>
+         <obj_property name="ObjectShortName">count_mul[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/multiply_control/count_weight" type="array">
+         <obj_property name="ElementShortName">count_weight[7:0]</obj_property>
+         <obj_property name="ObjectShortName">count_weight[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/multiply_control/idx_a" type="array">
+         <obj_property name="ElementShortName">idx_a[7:0]</obj_property>
+         <obj_property name="ObjectShortName">idx_a[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/multiply_control/idx_w" type="array">
+         <obj_property name="ElementShortName">idx_w[7:0]</obj_property>
+         <obj_property name="ObjectShortName">idx_w[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/multiply_control/idx_p" type="array">
+         <obj_property name="ElementShortName">idx_p[7:0]</obj_property>
+         <obj_property name="ObjectShortName">idx_p[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group763" type="group">
+      <obj_property name="label">control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module_2/a_sel" type="logic">
+         <obj_property name="ElementShortName">a_sel</obj_property>
+         <obj_property name="ObjectShortName">a_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/w_sel" type="logic">
+         <obj_property name="ElementShortName">w_sel</obj_property>
+         <obj_property name="ObjectShortName">w_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/o_sel" type="logic">
+         <obj_property name="ElementShortName">o_sel</obj_property>
+         <obj_property name="ObjectShortName">o_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/opcode" type="array">
+         <obj_property name="ElementShortName">opcode[1:0]</obj_property>
+         <obj_property name="ObjectShortName">opcode[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/is_outputload" type="logic">
+         <obj_property name="ElementShortName">is_outputload</obj_property>
+         <obj_property name="ObjectShortName">is_outputload</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/busy" type="logic">
+         <obj_property name="ElementShortName">busy</obj_property>
+         <obj_property name="ObjectShortName">busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group764" type="group">
+      <obj_property name="label">w_buf0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module_2/w_buf0_en" type="logic">
+         <obj_property name="ElementShortName">w_buf0_en</obj_property>
+         <obj_property name="ObjectShortName">w_buf0_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/w_buf0_we" type="logic">
+         <obj_property name="ElementShortName">w_buf0_we</obj_property>
+         <obj_property name="ObjectShortName">w_buf0_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/weight_buffer_1/addra" type="array">
+         <obj_property name="ElementShortName">addra[10:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/weight_buffer_1/dina" type="array">
+         <obj_property name="ElementShortName">dina[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/w_buf0_dout" type="array">
+         <obj_property name="ElementShortName">w_buf0_dout[63:0]</obj_property>
+         <obj_property name="ObjectShortName">w_buf0_dout[63:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group765" type="group">
+      <obj_property name="label">w_buf1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module_2/w_buf1_en" type="logic">
+         <obj_property name="ElementShortName">w_buf1_en</obj_property>
+         <obj_property name="ObjectShortName">w_buf1_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/w_buf1_we" type="logic">
+         <obj_property name="ElementShortName">w_buf1_we</obj_property>
+         <obj_property name="ObjectShortName">w_buf1_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/w_buf1_addr" type="array">
+         <obj_property name="ElementShortName">w_buf1_addr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">w_buf1_addr[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/w_buf1_din" type="array">
+         <obj_property name="ElementShortName">w_buf1_din[31:0]</obj_property>
+         <obj_property name="ObjectShortName">w_buf1_din[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/w_buf1_dout" type="array">
+         <obj_property name="ElementShortName">w_buf1_dout[63:0]</obj_property>
+         <obj_property name="ObjectShortName">w_buf1_dout[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/weight_buffer_2/dina" type="array">
+         <obj_property name="ElementShortName">dina[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/weight_buffer_2/addra" type="array">
+         <obj_property name="ElementShortName">addra[10:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[10:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/in_north" type="array">
+      <obj_property name="ElementShortName">in_north[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in_north[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group766" type="group">
+      <obj_property name="label">a_buf0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module_2/a_buf0_en" type="logic">
+         <obj_property name="ElementShortName">a_buf0_en</obj_property>
+         <obj_property name="ObjectShortName">a_buf0_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/tb_a_buf0_en" type="logic">
+         <obj_property name="ElementShortName">tb_a_buf0_en</obj_property>
+         <obj_property name="ObjectShortName">tb_a_buf0_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/a_buf0_we" type="logic">
+         <obj_property name="ElementShortName">a_buf0_we</obj_property>
+         <obj_property name="ObjectShortName">a_buf0_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/tb_a_buf0_we" type="logic">
+         <obj_property name="ElementShortName">tb_a_buf0_we</obj_property>
+         <obj_property name="ObjectShortName">tb_a_buf0_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/a_buf0_addr" type="array">
+         <obj_property name="ElementShortName">a_buf0_addr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">a_buf0_addr[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/tb_a_buf0_addr" type="array">
+         <obj_property name="ElementShortName">tb_a_buf0_addr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">tb_a_buf0_addr[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/a_buf0_din" type="array">
+         <obj_property name="ElementShortName">a_buf0_din[31:0]</obj_property>
+         <obj_property name="ObjectShortName">a_buf0_din[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/tb_a_buf0_din" type="array">
+         <obj_property name="ElementShortName">tb_a_buf0_din[31:0]</obj_property>
+         <obj_property name="ObjectShortName">tb_a_buf0_din[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/a_buf0_dout" type="array">
+         <obj_property name="ElementShortName">a_buf0_dout[63:0]</obj_property>
+         <obj_property name="ObjectShortName">a_buf0_dout[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/activation_buffer_1/dina" type="array">
+         <obj_property name="ElementShortName">dina[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/activation_buffer_1/addra" type="array">
+         <obj_property name="ElementShortName">addra[10:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[10:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group767" type="group">
+      <obj_property name="label">a_buf1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module_2/a_buf1_en" type="logic">
+         <obj_property name="ElementShortName">a_buf1_en</obj_property>
+         <obj_property name="ObjectShortName">a_buf1_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/a_buf1_we" type="logic">
+         <obj_property name="ElementShortName">a_buf1_we</obj_property>
+         <obj_property name="ObjectShortName">a_buf1_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/a_buf1_addr" type="array">
+         <obj_property name="ElementShortName">a_buf1_addr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">a_buf1_addr[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/a_buf1_din" type="array">
+         <obj_property name="ElementShortName">a_buf1_din[31:0]</obj_property>
+         <obj_property name="ObjectShortName">a_buf1_din[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/a_buf1_dout" type="array">
+         <obj_property name="ElementShortName">a_buf1_dout[63:0]</obj_property>
+         <obj_property name="ObjectShortName">a_buf1_dout[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/activation_buffer_2/dina" type="array">
+         <obj_property name="ElementShortName">dina[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/activation_buffer_2/addra" type="array">
+         <obj_property name="ElementShortName">addra[10:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[10:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group768" type="group">
+      <obj_property name="label">a_allign</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module_2/a_allign_rstn" type="logic">
+         <obj_property name="ElementShortName">a_allign_rstn</obj_property>
+         <obj_property name="ObjectShortName">a_allign_rstn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/a_allign_en" type="logic">
+         <obj_property name="ElementShortName">a_allign_en</obj_property>
+         <obj_property name="ObjectShortName">a_allign_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/a_allign_we" type="logic">
+         <obj_property name="ElementShortName">a_allign_we</obj_property>
+         <obj_property name="ObjectShortName">a_allign_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/a_allign_re" type="array">
+         <obj_property name="ElementShortName">a_allign_re[7:0]</obj_property>
+         <obj_property name="ObjectShortName">a_allign_re[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/input_setup/sel" type="logic">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/input_setup/in1" type="array">
+         <obj_property name="ElementShortName">in1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/input_setup/in2" type="array">
+         <obj_property name="ElementShortName">in2[63:0]</obj_property>
+         <obj_property name="ObjectShortName">in2[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/a_allign_dout" type="array">
+         <obj_property name="ElementShortName">a_allign_dout[63:0]</obj_property>
+         <obj_property name="ObjectShortName">a_allign_dout[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/input_setup/\genblk1[0].ACT_FIFO /mem_fifo" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">mem_fifo[0:7][7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_fifo[0:7][7:0]</obj_property>
+         <obj_property name="label">mem_fifo[0][0:7][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/input_setup/\genblk1[7].ACT_FIFO /mem_fifo" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">mem_fifo[0:7][7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_fifo[0:7][7:0]</obj_property>
+         <obj_property name="label">mem_fifo[1][0:7][15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1487" type="group">
+      <obj_property name="label">sys_array</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module_2/sys_array_control" type="logic">
+         <obj_property name="ElementShortName">sys_array_control</obj_property>
+         <obj_property name="ObjectShortName">sys_array_control</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/sys_array/in_west" type="array">
+         <obj_property name="ElementShortName">in_west[63:0]</obj_property>
+         <obj_property name="ObjectShortName">in_west[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/sys_array/in_north" type="array">
+         <obj_property name="ElementShortName">in_north[63:0]</obj_property>
+         <obj_property name="ObjectShortName">in_north[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/sys_array/out_south" type="array">
+         <obj_property name="ElementShortName">out_south[255:0]</obj_property>
+         <obj_property name="ObjectShortName">out_south[255:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/sys_out" type="array">
+      <obj_property name="ElementShortName">sys_out[255:0]</obj_property>
+      <obj_property name="ObjectShortName">sys_out[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group769" type="group">
+      <obj_property name="label">p_allign</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module_2/psum_setup/rstn" type="logic">
+         <obj_property name="ElementShortName">rstn</obj_property>
+         <obj_property name="ObjectShortName">rstn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/p_allign_en" type="logic">
+         <obj_property name="ElementShortName">p_allign_en</obj_property>
+         <obj_property name="ObjectShortName">p_allign_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_setup/write_en" type="array">
+         <obj_property name="ElementShortName">write_en[7:0]</obj_property>
+         <obj_property name="ObjectShortName">write_en[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/p_allign_re" type="logic">
+         <obj_property name="ElementShortName">p_allign_re</obj_property>
+         <obj_property name="ObjectShortName">p_allign_re</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/p_allign_we" type="array">
+         <obj_property name="ElementShortName">p_allign_we[7:0]</obj_property>
+         <obj_property name="ObjectShortName">p_allign_we[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_din" type="array">
+         <obj_property name="ElementShortName">psum_din[255:0]</obj_property>
+         <obj_property name="ObjectShortName">psum_din[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/p_allign_empty" type="logic">
+         <obj_property name="ElementShortName">p_allign_empty</obj_property>
+         <obj_property name="ObjectShortName">p_allign_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/p_allign_full" type="logic">
+         <obj_property name="ElementShortName">p_allign_full</obj_property>
+         <obj_property name="ObjectShortName">p_allign_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_setup/in1" type="array">
+         <obj_property name="ElementShortName">in1[255:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_setup/out" type="array">
+         <obj_property name="ElementShortName">out[255:0]</obj_property>
+         <obj_property name="ObjectShortName">out[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_setup/\genblk1[0].ACT_FIFO /mem_fifo" type="array">
+         <obj_property name="ElementShortName">mem_fifo[0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_fifo[0:7][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_setup/\genblk1[0].ACT_FIFO /r_rptr" type="array">
+         <obj_property name="ElementShortName">r_rptr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_rptr[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_setup/\genblk1[0].ACT_FIFO /r_wptr" type="array">
+         <obj_property name="ElementShortName">r_wptr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_wptr[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group770" type="group">
+      <obj_property name="label">p_store</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module_2/psum_buff/first_psum" type="logic">
+         <obj_property name="ElementShortName">first_psum</obj_property>
+         <obj_property name="ObjectShortName">first_psum</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_sel" type="logic">
+         <obj_property name="ElementShortName">psum_sel</obj_property>
+         <obj_property name="ObjectShortName">psum_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_buff/psum_prev_addr" type="array">
+         <obj_property name="ElementShortName">psum_prev_addr[6:0]</obj_property>
+         <obj_property name="ObjectShortName">psum_prev_addr[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_en" type="logic">
+         <obj_property name="ElementShortName">psum_en</obj_property>
+         <obj_property name="ObjectShortName">psum_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_we" type="logic">
+         <obj_property name="ElementShortName">psum_we</obj_property>
+         <obj_property name="ObjectShortName">psum_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_buff/psum_addr" type="array">
+         <obj_property name="ElementShortName">psum_addr[6:0]</obj_property>
+         <obj_property name="ObjectShortName">psum_addr[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_buff/psum_din" type="array">
+         <obj_property name="ElementShortName">psum_din[255:0]</obj_property>
+         <obj_property name="ObjectShortName">psum_din[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_buff/current_psum" type="array">
+         <obj_property name="ElementShortName">current_psum[255:0]</obj_property>
+         <obj_property name="ObjectShortName">current_psum[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_buff/adder_out" type="array">
+         <obj_property name="ElementShortName">adder_out[255:0]</obj_property>
+         <obj_property name="ObjectShortName">adder_out[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_buff/psum_dout1" type="array">
+         <obj_property name="ElementShortName">psum_dout1[255:0]</obj_property>
+         <obj_property name="ObjectShortName">psum_dout1[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_buff/psum_dout2" type="array">
+         <obj_property name="ElementShortName">psum_dout2[255:0]</obj_property>
+         <obj_property name="ObjectShortName">psum_dout2[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_buff/psum_out" type="array">
+         <obj_property name="ElementShortName">psum_out[255:0]</obj_property>
+         <obj_property name="ObjectShortName">psum_out[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_buff/psum_buffer_1/inst/\native_mem_module.blk_mem_gen_v8_4_7_inst /memory" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">memory[0:31][255:0]</obj_property>
+         <obj_property name="ObjectShortName">memory[0:31][255:0]</obj_property>
+         <obj_property name="label">psum0_memory[0:31][255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/psum_buff/psum_buffer_2/inst/\native_mem_module.blk_mem_gen_v8_4_7_inst /memory" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">memory[0:31][255:0]</obj_property>
+         <obj_property name="ObjectShortName">memory[0:31][255:0]</obj_property>
+         <obj_property name="label">psum1_memory[0:31][255:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group771" type="group">
+      <obj_property name="label">o_buf0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module_2/output_buffer_1/ena" type="logic">
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/output_buffer_1/wea" type="array">
+         <obj_property name="ElementShortName">wea[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/output_buffer_1/addra" type="array">
+         <obj_property name="ElementShortName">addra[7:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/output_buffer_1/dina" type="array">
+         <obj_property name="ElementShortName">dina[255:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/output_buffer_1/douta" type="array">
+         <obj_property name="ElementShortName">douta[31:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/output_buffer_1/inst/\native_mem_module.blk_mem_gen_v8_4_7_inst /memory" type="array">
+         <obj_property name="ElementShortName">memory[0:255][31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory[0:255][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group772" type="group">
+      <obj_property name="label">o_buf1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module_2/output_buffer_2/ena" type="logic">
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/output_buffer_2/wea" type="array">
+         <obj_property name="ElementShortName">wea[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/output_buffer_2/addra" type="array">
+         <obj_property name="ElementShortName">addra[7:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/output_buffer_2/dina" type="array">
+         <obj_property name="ElementShortName">dina[255:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/output_buffer_2/douta" type="array">
+         <obj_property name="ElementShortName">douta[31:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_2/output_buffer_2/inst/\native_mem_module.blk_mem_gen_v8_4_7_inst /memory" type="array">
+         <obj_property name="ElementShortName">memory[0:255][31:0]</obj_property>
+         <obj_property name="ObjectShortName">memory[0:255][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/tb_on_o0" type="logic">
+      <obj_property name="ElementShortName">tb_on_o0</obj_property>
+      <obj_property name="ObjectShortName">tb_on_o0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/tb_o_buf0_addr" type="array">
+      <obj_property name="ElementShortName">tb_o_buf0_addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_o_buf0_addr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/tb_o_buf0_en" type="logic">
+      <obj_property name="ElementShortName">tb_o_buf0_en</obj_property>
+      <obj_property name="ObjectShortName">tb_o_buf0_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/tb_o_buf0_we" type="logic">
+      <obj_property name="ElementShortName">tb_o_buf0_we</obj_property>
+      <obj_property name="ObjectShortName">tb_o_buf0_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/tb_on_o1" type="logic">
+      <obj_property name="ElementShortName">tb_on_o1</obj_property>
+      <obj_property name="ObjectShortName">tb_on_o1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/tb_o_buf1_addr" type="array">
+      <obj_property name="ElementShortName">tb_o_buf1_addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_o_buf1_addr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/tb_o_buf1_en" type="logic">
+      <obj_property name="ElementShortName">tb_o_buf1_en</obj_property>
+      <obj_property name="ObjectShortName">tb_o_buf1_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/tb_o_buf1_we" type="logic">
+      <obj_property name="ElementShortName">tb_o_buf1_we</obj_property>
+      <obj_property name="ObjectShortName">tb_o_buf1_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/o_buf0_dout" type="array">
+      <obj_property name="ElementShortName">o_buf0_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_buf0_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/o_buf1_dout" type="array">
+      <obj_property name="ElementShortName">o_buf1_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_buf1_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/multiply_control/outputload_fin" type="logic">
+      <obj_property name="ElementShortName">outputload_fin</obj_property>
+      <obj_property name="ObjectShortName">outputload_fin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/a_allign_empty" type="logic">
+      <obj_property name="ElementShortName">a_allign_empty</obj_property>
+      <obj_property name="ObjectShortName">a_allign_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/a_allign_full" type="logic">
+      <obj_property name="ElementShortName">a_allign_full</obj_property>
+      <obj_property name="ObjectShortName">a_allign_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_2/p_allign_rstn" type="logic">
+      <obj_property name="ElementShortName">p_allign_rstn</obj_property>
+      <obj_property name="ObjectShortName">p_allign_rstn</obj_property>
+   </wvobject>
+</wave_config>
