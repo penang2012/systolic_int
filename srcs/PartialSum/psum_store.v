@@ -3,8 +3,18 @@
 module psum_store #(
     parameter ROW = 8,
     parameter COL = 8,
+
+    parameter IN_DATA_WIDTH = 8,
     parameter OUT_DATA_WIDTH = 32,
-    parameter IN_DATA_WIDTH = 8
+
+    parameter integer BRAM_ADDR_WIDTH = 11,
+    parameter integer BRAM_DATA_WIDTH = 32,
+    
+    parameter integer P_BRAM_ADDR_WIDTH = 5,
+    parameter integer P_BRAM_DATA_WIDTH = 256,
+    
+    parameter integer O_BRAM_ADDR_WIDTH = 7,
+    parameter integer O_BRAM_DATA_WIDTH = 32
 )
 (
     clk,
@@ -28,8 +38,8 @@ module psum_store #(
     input buffer_sel;
     input first_psum;
 
-    input [COL*OUT_DATA_WIDTH-1:0] psum_din;
-    input [7-1:0] psum_prev_addr, psum_addr;
+    input signed [COL*OUT_DATA_WIDTH-1:0] psum_din;
+    input [P_BRAM_ADDR_WIDTH-1:0] psum_prev_addr, psum_addr;
     input psum_en;
     input psum_we;
 
@@ -40,10 +50,10 @@ module psum_store #(
     wire psum_we1, psum_we2;
     wire [COL*OUT_DATA_WIDTH-1:0] psum_din1, psum_din2;
     wire [COL*OUT_DATA_WIDTH-1:0] psum_dout1, psum_dout2;
-    wire [COL*OUT_DATA_WIDTH-1:0] adder_out;
+    wire signed [COL*OUT_DATA_WIDTH-1:0] adder_out;
 
-    reg [COL*OUT_DATA_WIDTH-1:0] current_psum, current_psum_n;
-    wire [7-1:0] psum_addr1, psum_addr2;
+    reg signed [COL*OUT_DATA_WIDTH-1:0] current_psum, current_psum_n;
+    wire [P_BRAM_ADDR_WIDTH-1:0] psum_addr1, psum_addr2;
     
     wire [3 * COL - 1 : 0] GRS;
 

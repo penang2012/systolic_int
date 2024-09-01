@@ -3,8 +3,20 @@
 ## 차이점
 integer연산을 테스트 하기 위한 모듈. 
 1) systolic array: integer mac.
-2) Quantization unit.
-3) Dequantization unit.
+2) Quantization unit. -> 미구현, python으로 대체
+3) Dequantization unit. -> 미구현. 32bit 전체 출력
+
+## Run and Test:
+1) input data: .mem file. 
+파이썬 파일로 mem_file_generator.py으로 random matrix 생성
+
+2) vivado에서 mem파일 업로드 해서 접근.
+
+3) output data: _VIVADO파일명_\_VIVADO파일명_.sim\sim_1\behav\xsim\output.txt" 에 저장됨.
+
+4) (3)의 파일과 ouput_predicted.txt파일 결과 비교.
+
+
 
 ---
 ## 개요
@@ -110,13 +122,6 @@ _처음에 구현한 것과 address 저장 차이에 의한 값 차이 존재_
 
 # How to run  
 
-## INPUT DATA / OUTPUT DATA:
-input data: .mem file. 
-파이썬 파일로 mem_file_generator.py를 통해서 mem 파일을 생성할 수 있다.
-
-vivado에서 mem파일 업로드 해서 접근.
-
-output data: _VIVADO파일명_\_VIVADO파일명_.sim\sim_1\behav\xsim\output.txt" 에 저장됨.
 
 # BRAM 설정 방법.
 VIVADO의 ip generator에서 BRAM을 지정한다.
