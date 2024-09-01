@@ -596,7 +596,8 @@ multiply_control #(
         // i_max == N / (8 * N)
         for(i = 0; i < 16; i = i + 1) begin
             for(k = 0; k < 1; k = k + 1) begin
-                if(i != 0 & k != 0) begin
+                if(i == 0 & k == 0) begin
+                end else begin
                     w_sel = !w_sel;
                 end
                 for(j = 0; j < 16; j = j + 1) begin
